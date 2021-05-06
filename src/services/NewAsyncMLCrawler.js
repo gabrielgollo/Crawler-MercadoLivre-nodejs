@@ -14,13 +14,6 @@ async function start(jsonData){
     //console.log(url)
 
     let anotherlist = await requestMercadolivre(url, limit)
-    
-    /*
-    for(let i of anotherlist){
-        getlistData.push( i )
-    }*/
-    //console.log(getlistData)
-    //console.log(search, limit)
 
     return anotherlist
 }
@@ -38,7 +31,7 @@ async function requestMercadolivre(url, limit){
         }
 
         let list = await getlist($, limit)
-        console.log(list)
+        //console.log(list)
         return await Promise.all(list)
 
     } catch(err){

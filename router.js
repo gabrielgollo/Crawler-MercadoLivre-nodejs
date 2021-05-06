@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const crawler = require('./src/services/AsyncMercadoLivreCrawler')
+//const crawler = require('./src/services/NewAsyncMLCrawler')
+const crawler = require('./src/services/NewAsyncMLCrawler')
 
 router.get('/', (req, res)=>{
     res.send('hello world')
