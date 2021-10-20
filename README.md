@@ -1,4 +1,4 @@
-## Uma pequeno api crawler do mercado livre que resolve o desafio proposto abaixo.
+## Um API Crawler do Mercado Livre para extrair o preço, o link, o nome e a loja do anúncio de um produto.
 
 
 >## Challenge Proposal
@@ -11,8 +11,8 @@
 >
 >```
 >{
->    "search": String,
->    "limit": Int,
+>    "product": String,
+>    "quantity": Int,
 >}
 >```
 >
@@ -20,8 +20,8 @@
 >
 >```
 >{
->    "search": "Cadeado",
->    "limit": 15,
+>    "product": "Cadeado",
+>    "quantity": 15,
 >}
 >```
 >
