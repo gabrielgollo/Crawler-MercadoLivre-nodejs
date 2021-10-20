@@ -2,16 +2,16 @@
   "name": "crawler-mercadolivre",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "nodemon index.js"
+    "start": "node app.js",
+    "s": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.6",
     "express": "^4.17.1"
   },
