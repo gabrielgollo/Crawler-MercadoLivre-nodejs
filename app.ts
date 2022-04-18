@@ -1,6 +1,6 @@
-const express = require("express");
-const bodyParse = require("body-parser");
-const router = require("./src/router");
+import express from "express";
+import {router} from './src/router'
+
 const app = express();
 const port = 5000;
 
